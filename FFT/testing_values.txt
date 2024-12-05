@@ -1,0 +1,41 @@
+Inputs: 100, 150, 200, 250
+
+Expected outputs:
+700
+-100 + 100j
+-100
+-100 - 100j
+
+32-bit outputs:
+02b9 0000 -> 697
+ff9d 0063 -> -99 + 99j
+ff9d 0000 -> -99
+ff9d ff9d -> -99 - 99j
+
+16-bit outputs:
+bc 00 -> -68 (truncated)
+9c 64 -> -100 + 100j
+9c 00 -> -100
+9c 9c -> -100 - 100j
+
+
+
+Inputs: 15, 66, 128, 52
+
+Expected outputs:
+261
+-113 - 14j
+25
+-113 + 14j
+
+32-bit outputs:
+0102 0000 -> 258
+ff90 fff1 -> -112 - 15j
+001a 0000 -> 26
+ff90 000f -> -112 + 15j
+
+16-bit outputs:
+04 00 -> 4 (truncated)
+8e f1 -> -114 - 15j
+1c 00 -> 28
+8e 0f -> -114 + 15j

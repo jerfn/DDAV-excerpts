@@ -1,0 +1,14 @@
+
+State Machine - |ft_tb|fft16:UUT16|currState
+Name currState.DONE currState.STAGE2 currState.STAGE1 currState.RESET 
+currState.RESET 0 0 0 0 
+currState.STAGE1 0 0 1 1 
+currState.STAGE2 0 1 0 1 
+currState.DONE 1 0 0 1 
+
+State Machine - |ft_tb|fft:UUT32|currState
+Name currState.DONE currState.STAGE2 currState.STAGE1 currState.RESET 
+currState.RESET 0 0 0 0 
+currState.STAGE1 0 0 1 1 
+currState.STAGE2 0 1 0 1 
+currState.DONE 1 0 0 1 

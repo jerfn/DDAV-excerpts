@@ -1,0 +1,19 @@
+`timescale 1ns/1ns
+
+module butterfly_tb (
+    output logic signed [31:0] out1, out2
+);
+    
+    logic signed [31:0] a, b, w;
+    butterfly UUT(a, b, w, out1, out2);
+
+    initial begin
+        a = 32'b00000000010000000000000001000000;
+        b = 32'b00000000010000000000000001000000;
+        w = 32'b1;
+        #10;
+        $stop;
+    end
+
+
+endmodule

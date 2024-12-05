@@ -1,0 +1,4 @@
+Info (10281): Verilog HDL Declaration information at fft.sv(4): object "reset" differs only in case from object "RESET" in the same scope File: //Mac/Home/Documents/DAV/lab3/fft.sv Line: 4
+Info (10281): Verilog HDL Declaration information at fft.sv(8): object "done" differs only in case from object "DONE" in the same scope File: //Mac/Home/Documents/DAV/lab3/fft.sv Line: 8
+Info (10281): Verilog HDL Declaration information at fft16.sv(4): object "reset" differs only in case from object "RESET" in the same scope File: //Mac/Home/Documents/DAV/lab3/fft16.sv Line: 4
+Info (10281): Verilog HDL Declaration information at fft16.sv(8): object "done" differs only in case from object "DONE" in the same scope File: //Mac/Home/Documents/DAV/lab3/fft16.sv Line: 8
